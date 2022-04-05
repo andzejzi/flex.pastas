@@ -1,3 +1,6 @@
+body {
+    background-color: #909090;
+}
 body, p, h1, h2 {
     margin: 0;
     font-family:"Roboto", sans-serif;
@@ -5,6 +8,11 @@ body, p, h1, h2 {
 
 a {
     text-decoration: none;
+}
+
+a, button {
+    transition: 500ms;
+    cursor: pointer;
 }
 
 .black-header {
@@ -18,13 +26,12 @@ a {
     color: #e2e2e0;
     margin: 0 12px;
     font-weight: 300;
-    font-size:13 ;
+    font-size:13px ;
 
 }
 
 .black-header a:hover {
     color: red;
-    transition: 500ms;
 }
 
 .white-header {
@@ -32,6 +39,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 14px;
+    background-color: white;
 }
 
 .customer-side {
@@ -40,6 +48,44 @@ a {
 }
 
 .white-header a {
+    color:#616161;
     margin: 0 12px;
+    font-size: 17px;   
 }
 
+.white-header a:hover {
+    color: #909090;
+}
+
+.white-header button {
+    background-color: red;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.white-header button:hover {
+    background-color: #f87676;
+}
+
+.hero {
+    height: 70vh;
+    background-image: url("./city.jpg");
+    background-size: cover;
+}
+
+.news {
+    padding: 32px;
+    background-color: white;
+    margin: -24px 32px 0 32px;
+}
+
+.news h2 {
+    text-align: center;
+    font-weight: 300;
+    border-bottom: 2px solid yellow;
+    width: 100px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
