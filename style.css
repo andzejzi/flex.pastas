@@ -24,10 +24,9 @@ a, button {
 
 .black-header a {
     color: #e2e2e0;
-    margin: 0 12px;
     font-weight: 300;
-    font-size:13px ;
-
+    font-size: 13px;
+    margin: 0 12px;
 }
 
 .black-header a:hover {
@@ -48,9 +47,9 @@ a, button {
 }
 
 .white-header a {
-    color:#616161;
-    margin: 0 12px;
-    font-size: 17px;   
+    color:#616161;  
+    font-size: 17px;  
+     margin: 0 12px;
 }
 
 .white-header a:hover {
@@ -85,8 +84,31 @@ a, button {
     text-align: center;
     font-weight: 300;
     border-bottom: 2px solid yellow;
-    width: 100px;
+    width: 120px;
     margin: 0 auto;
     padding-bottom: 16px;
 }
 
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 50%;
+    margin: 16px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    padding-bottom: 16px;
+
+}
+
+.card .card-image img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card .card-text, .card a {
+    padding: 16px;
+}
